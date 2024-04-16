@@ -28,7 +28,7 @@ As variaveis declaradas nesta classe são:
 O contrutor so inicia um objeto da classe Random.
 
 
-<font color="lightgrey">No fundo o código gere o funcionamento e comportamento da bola, também inclui o lançamento inicial e as colisões existentes.</font>
+<span style="font-size: smaller;">No fundo o código gere o funcionamento e comportamento da bola, também inclui o lançamento inicial e as colisões existentes.</span>
 
 
 
