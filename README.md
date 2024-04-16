@@ -28,20 +28,8 @@ As variaveis declaradas nesta classe são:
 O contrutor so inicia um objeto da classe Random.
 
 
-### Método Launch  
+"No fundo o código gere o funcionamento e comportamento da bola, também inclui o lançamento inicial e as colisões existentes "
 
-* Inicia o movimento da bola com uma determinada velocidade.  
-* Calcula um ângulo aleatório para lançar a bola.  
-* Define a posição inicial da bola no centro da tela. 
-* Calcula a velocidade da bola com base no ângulo e em uma direção aleatória.  
-### Método CheckWallCollision
-* Verifica e trata as colisões da bola com as paredes da tela.  
-* Se a bola atinge o topo ou o fundo da tela, inverte sua velocidade na direção Y e reproduz um som.  
-
-### Método Move:
-* Sobrescreve o método Move da classe pai (Objetos).
-* Move a bola com base no vetor de movimento fornecido.
-* Após o movimento, verifica se houve colisão com as paredes chamando o método CheckWallCollision.
 
 
 
