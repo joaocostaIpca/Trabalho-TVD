@@ -19,7 +19,7 @@ As variaveis declaradas nesta classe sao:
 
 ### Métodos  
 
-   #### Launch : O metodo launch inicia a bola com uma velocidade predeterminada, calcula um angulos aleatorio  para lancar a bola, define a posição da bola no centro do ecrã e calcula a velocidade da bola consoante o angulo.  
+   #### Launch ####: O metodo launch inicia a bola com uma velocidade predeterminada, calcula um angulos aleatorio  para lancar a bola, define a posição da bola no centro do ecrã e calcula a velocidade da bola consoante o angulo.  
    #### CheckWallCollision : Trata de checkar se a bola colide com as paredes, tambem reproduz um som consoante a bola bater no topo ou em baixo.  
    #### Move : Chama pela classe objetos, e movimenta a bola caso ela tenha colidido.
 
