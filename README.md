@@ -14,8 +14,8 @@ Afonso Paiva nº27915
 ### Variaveis
 
 As variaveis declaradas nesta classe sao:  
-Velocity: Que vai determinar a velocidade da bola.  
-Random: Que chama a classe random para gerar um valor aleatorio.  
+*Velocity: Que vai determinar a velocidade da bola.  
+*Random: Que chama a classe random para gerar um valor aleatorio.  
 
 ### Métodos  
 
