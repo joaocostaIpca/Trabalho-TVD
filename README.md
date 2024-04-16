@@ -9,7 +9,7 @@ Afonso Paiva nº27915
 
  O projeto e dividido em 6 classes nomeadamente:
 
-## ->Bola.cs
+## Bola.cs
  A classe bola.cs faz toda a logica do movimento e comportamento da bola, tendo a classe objetos como pai.
 ### Variaveis
 
