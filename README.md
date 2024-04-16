@@ -11,7 +11,7 @@ Afonso Paiva nº27915
 
 ## ->Bola.cs
 
-Nesta classe podemos verificar 3 metodos, o construtor e algumas variaveis  
+Nesta classe podemos verificar 3 metodos, o construtor e algumas variaveis
 asdasd
 
 
