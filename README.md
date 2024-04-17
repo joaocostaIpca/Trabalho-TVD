@@ -10,7 +10,7 @@ Feito por:
 *** 
 
 # Índice
-1. [ Classes do Projeto ]((https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs))  
+1. [ Classes do Projeto ](https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs)
    1.1 [ Bola.cs ]((https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs))  
    1.2 [ Input.cs ]((https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs))  
    1.3 [ Jogador.cs ]((https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs))  
