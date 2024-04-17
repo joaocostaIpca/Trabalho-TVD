@@ -10,13 +10,13 @@ Feito por:
 *** 
 
 # Índice
-1. [ Classes do Projeto ](https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs)
-   1.1 [ Bola.cs ]((https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs))  
-   1.2 [ Input.cs ]((https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs))  
-   1.3 [ Jogador.cs ]((https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs))  
-   1.4 [ Som.cs ]((https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs))  
+1. [ Classes do Projeto ](https://github.com/joaocostaIpca/Trabalho-TVD/tree/main?tab=readme-ov-file#1-classes-do-projeto)  
+   1.1 [ Bola.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/tree/main?tab=readme-ov-file#11-bolacs)  
+   1.2 [ Input.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/tree/main?tab=readme-ov-file#12-inputcs)  
+   1.3 [ Jogador.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/tree/main?tab=readme-ov-file#13-jogadorcs)  
+   1.4 [ Som.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/tree/main?tab=readme-ov-file#15-objetoscs)  
    1.5 [ Objetos.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/tree/main?tab=readme-ov-file#15-objetoscs) 
-2. [ Game1.cs ]([https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#1-game1cs](https://github.com/joaocostaIpca/Trabalho-TVD/tree/main?tab=readme-ov-file#15-objetoscs))
+2. [ Game1.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/tree/main?tab=readme-ov-file#15-objetoscs)
 
 
 
