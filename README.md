@@ -1,5 +1,7 @@
 # Trabalho-TVD
 Explicação de codigo de Técnicas de Desenvolvimento de Vídeojogos
+<br>
+</br>
 Feito por:   
 João Costa nº27931  
 Rafael Santos nº27930  
@@ -39,37 +41,93 @@ A classe Input.cs recebe a a entrada do jogador
 
 ### Variáveis
 
-&nbsp;&nbsp;&nbsp;&nbsp;**`TecladoTecla`** Verifica se a tecla foi pressionada pelo utilizador.
+&nbsp;&nbsp;&nbsp;&nbsp;**`Direction`** Vetor bidimensional (Vector2) que armazena a direção do movimento.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`keyboardState`** Representa o estado atual do teclado.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`PlayerIndex`** Parâmetro de uma função que especifica qual o jogador em causa para o qual estamos e verificamos a entrada do teclado.
 
 ### Métodos 
 
+&nbsp;&nbsp;&nbsp;&nbsp;**`TecladoTecla`** Verifica se a tecla foi pressionada pelo utilizador.
 
-### Construtor
-
-
-
-
-
+> Nota que nos encontramos perante um método estático que basicamente se encarrega da entrada de cada utilizador para tornar possível o movimento das barras.
 <br>
 </br>
+
 ## Jogador.cs
+A classe Jogador.cs implementa um método de movimento específico para controlar a posição de um jogador.
 
+### Variaveis
 
+ &nbsp;&nbsp;&nbsp;&nbsp;**`pontuacao`** Este inteiro guarda a pontuação do jogador
+  
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Posicao`** Indica a posição do jogador
 
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Textura`**  Um objeto da classe (Texture2D) refere-se a textura do jogador na tela.
 
+  &nbsp;&nbsp;&nbsp;&nbsp;**`movimento`**  Vetor bidimensional que indica o movimento do player
+
+ 
+
+### Métodos  
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`Move`**  Isto é um método publico que verifica se o jogador ultrapassou os limites da tela, se esse não for o caso irá executar o movimento do jogador
+
+> Esta classe basicamente controla a pontuação e o movimento do jogador, incluindo um limitador, para este não sair da tela.
+     
 <br>
 </br>
+
+
 ## Som.cs
+Esta classe armazena e executa os efeitos sonoros do jogo.
+
+### Variaveis
 
 
+ &nbsp;&nbsp;&nbsp;&nbsp;**`SomBarra`** Controla o som que é efetuado pela barra.
 
+ &nbsp;&nbsp;&nbsp;&nbsp;**`SomBola`** Controla o som que é efetuado pela bola.
+
+### Métodos  
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`CarregarSom`** Este método utiliza o (Content Manager) para atribuir os efeitos sonoros da bola e da barra.
+
+> Nota que o (SoundEffect) é uma classe fornecida pela XNA Framework para o uso de efeitos sonoros.
 
 <br>
 </br>
-## Game1.cs
 
 
+## Objetos.cs
+Esta classe regista os objetos existentes.
+
+### Variaveis
 
 
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Posicao`** Representa a posição do objeto
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Textura`** É a textura do objeto, do tipo Texture2D da framework
+
+
+### Métodos  
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`Draw`**  Isto desenha o objeto na tela com o (SpriteBatch), através da (Textura) e a (Posicao) .
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`Move`** Ele recebe o (movimento) e a (Posicao) do objeto e soma esse vetor à posição atual.
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`Bounds`** Retângulo que delimita as bordas do jogo e que representa a área ocupada pelo objeto. É utilizado para detetar colisões. 
+
+
+> Observa-se que esta classe foca-se principalmente na decção de colisões para o jogo.
+
+<br>
+</br>
+
+***
+
+# Game1.cs
 
 
