@@ -2,16 +2,29 @@
 Explicação de codigo de Técnicas de Desenvolvimento de Vídeojogos
 <br>
 </br>
+
 Feito por:   
-João Costa nº27931  
-Rafael Santos nº27930  
-Afonso Paiva nº27915  
+* João Costa nº27931 
+* Rafael Santos nº27930  
+* Afonso Paiva nº27915  
 *** 
-# Classes do projeto:
+
+# Índice
+1. [ Classes do Projeto ](https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#1-classes-do-projeto)  
+   1.1 [ Bola.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#11-bolacs)  
+   1.2 [ Input.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#12-inputcs)  
+   1.3 [ Jogador.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#13-jogadorcs)  
+   1.4 [ Som.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#14-somcs)  
+   1.5 [ Objetos.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#13-objetoscs)  
+2. [ Game1.cs ](https://github.com/joaocostaIpca/Trabalho-TVD/edit/main/README.md#1-game1cs)
+
+
+
+## 1. Classes do Projeto
 
  O projeto e dividido em 6 classes nomeadamente:
 
-## Bola.cs
+## 1.1. Bola.cs
 A classe bola.cs faz toda a lógica do movimento e comportamento da bola, tendo a classe objetos como pai.
 ### Variaveis
 
@@ -36,7 +49,7 @@ A classe bola.cs faz toda a lógica do movimento e comportamento da bola, tendo 
 <br>
 </br>
 
-## Input.cs
+## 1.2. Input.cs
 A classe Input.cs recebe a a entrada do jogador  
 
 ### Variáveis
@@ -55,7 +68,7 @@ A classe Input.cs recebe a a entrada do jogador
 <br>
 </br>
 
-## Jogador.cs
+## 1.3. Jogador.cs
 A classe Jogador.cs implementa um método de movimento específico para controlar a posição de um jogador.
 
 ### Variaveis
@@ -68,7 +81,6 @@ A classe Jogador.cs implementa um método de movimento específico para controla
 
   &nbsp;&nbsp;&nbsp;&nbsp;**`movimento`**  Vetor bidimensional que indica o movimento do player
 
- 
 
 ### Métodos  
 
@@ -80,7 +92,7 @@ A classe Jogador.cs implementa um método de movimento específico para controla
 </br>
 
 
-## Som.cs
+## 1.4 Som.cs
 Esta classe armazena e executa os efeitos sonoros do jogo.
 
 ### Variaveis
@@ -100,7 +112,7 @@ Esta classe armazena e executa os efeitos sonoros do jogo.
 </br>
 
 
-## Objetos.cs
+## 1.5 Objetos.cs
 Esta classe regista os objetos existentes.
 
 ### Variaveis
@@ -128,6 +140,6 @@ Esta classe regista os objetos existentes.
 
 ***
 
-# Game1.cs
+## 2. Game1.cs
 
 
