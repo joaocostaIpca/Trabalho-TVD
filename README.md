@@ -142,4 +142,55 @@ Esta classe regista os objetos existentes.
 
 ## 2. Game1.cs
 
+Esta classe é a principal do programa.
+
+### Variaveis
+
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Posicao_barra`** Representa a posição da Barra
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`velocidade_bola`** Representa a velocidade da bola 
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Teclado_velocidade_barra`** Representa a o fator de multiplicacao para a velocidade da bola
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Placar_maximo`** Representa o valor maximo do placar
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`framerate`** Representa uma constante para defenir a framerate
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`graphics`** é uma variavel que faz com que basicamente funcione o programa graficamente  
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`spritebatch`** Permite nos desenhar as texturas que nos pretendemos dentro do jogo
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`altura e largura`** Representa a altura e largura do tamanho da janela
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`jogador1 e jogador2`** Sao variaveis tipos objetos que herdam tudo da classe jogador
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Bola`** É uma variavel do tipo objeto que herda a classe bola 
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Meiotextura e menu e logo`** Serve para caregar uma imagem para a tela 
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`Texto`** Esta variavel permite escrever texto na tela
+
+ &nbsp;&nbsp;&nbsp;&nbsp;**`ganhador`** È um vetor que permite pegar a posição (x,y)
+
+
+### Métodos  
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`Initialize`**  Define a largura e altura da janela (Posicao) .
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`LoadContent`** Verifica os inputs do jogador, move a bola, verifica se a bola ultrapaçou os limites da tela , e atualiza a pontuação
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;**`Draw`** Limpa a tela, desenha o main menu, placar, jogadores, bola e a linha divisoria exibe tambem os fps e renicia o jogo caso um jogador chegue a pontuação maxima
+
+
+
+
+
+
+<br>
+</br>
+
+***
+
 
