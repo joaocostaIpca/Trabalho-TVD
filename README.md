@@ -1,5 +1,10 @@
-# Trabalho-TVD
-Explicação de codigo de Técnicas de Desenvolvimento de Vídeojogos
+# Jogo Pong
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmNwM2VnMXdwcnF4NmdhYmo2bzlpN2Q1OGJxeGoyb24wNzQyZ3BxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aTGwuEFyg6d8c/giphy.gif)
+
+Projeto com autoria de **Igor Morse**
+https://github.com/igormorse
+
+Explicação de codigo da disciplina de Técnicas de Desenvolvimento de Vídeojogos
 <br>
 </br>
 
